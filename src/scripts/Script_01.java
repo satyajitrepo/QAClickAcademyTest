@@ -1,5 +1,7 @@
 package scripts;
 
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 
 import utilities.Utility;
@@ -11,6 +13,7 @@ public class Script_01 {
 		Utility.getDriver();
 		Utility.click(By.linkText("Demos"));
 		
+		Utility.colseBrowser();
 	}
 
 }
